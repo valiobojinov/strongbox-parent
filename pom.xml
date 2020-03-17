@@ -65,7 +65,7 @@
         <version.apache.commons.compress>1.19</version.apache.commons.compress>
         <version.apache.directory>1.5.5</version.apache.directory>
         <version.appassembler>2.0.0</version.appassembler>
-        <version.groovy>2.5.8</version.groovy>
+        <version.groovy>2.5.9</version.groovy>
         <version.guava>19.0</version.guava>
         <version.hamcrest>1.3</version.hamcrest>
         <version.hazelcast>3.10.2</version.hazelcast>
@@ -178,7 +178,8 @@
 
                         <!-- This field needs to be set to 1 or jacoco reports will be incorrect/missing! -->
                         <forkCount>1</forkCount>
-
+                        <trimStackTrace>false</trimStackTrace>
+                        
                         <systemPropertyVariables>
                             <strongbox.home>${project.build.directory}/strongbox</strongbox.home>
                             <strongbox.vault>${project.build.directory}/strongbox-vault</strongbox.vault>
