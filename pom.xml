@@ -811,6 +811,8 @@
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-all</artifactId>
                 <version>${version.groovy}</version>
+                <type>pom</type>
+                <scope>import</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>org.codehaus.groovy</groupId>
@@ -821,7 +823,6 @@
                         <artifactId>testng</artifactId>
                     </exclusion>
                 </exclusions>
-                <type>pom</type>
             </dependency>
 
             <dependency>
