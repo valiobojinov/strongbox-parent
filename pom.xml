@@ -1340,7 +1340,12 @@
             <dependency>
                 <groupId>org.neo4j</groupId>
                 <artifactId>neo4j-ogm-api</artifactId>
-                <version>3.2.6</version>
+                <version>3.2.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.neo4j</groupId>
+                <artifactId>neo4j-ogm-core</artifactId>
+                <version>3.2.10</version>
             </dependency>
             
             <dependency>
